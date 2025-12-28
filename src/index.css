@@ -1,1 +1,36 @@
 @import "tailwindcss";
+
+body {
+  min-width: 100vh;
+  overflow-x: hidden;
+}
+
+.front {
+  background: linear-gradient(to right, skyblue, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateY(0deg) translateZ(150px);
+}
+
+.back {
+  background: linear-gradient(to right, pink, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateY(180deg) translateZ(150px);
+}
+
+.right {
+  background: linear-gradient(to right, #38f279, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateY(90deg) translateZ(150px);
+}
+
+.left {
+  background: linear-gradient(to right, #277819, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateY(-90deg) translateZ(150px);
+}
+
+.top {
+  background: linear-gradient(to right, #981234, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateX(90deg) translateZ(150px);
+}
+
+.bottom {
+  background: linear-gradient(to right, grey, rgba(0, 0, 0, 0)), url("https://grainy-gradients.vercel.app/noise.svg");
+  transform: rotateX(-90deg) translateZ(150px);
+}
